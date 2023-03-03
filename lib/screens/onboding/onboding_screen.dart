@@ -94,7 +94,7 @@ class _OnbodingScreenState extends State<OnbodingScreen> {
                         _btnAnimationController.isActive = true;
 
                         Future.delayed(
-                          const Duration(milliseconds: 800),
+                          const Duration(milliseconds: 700),
                           () {
                             setState(() {
                               isShowSignInDialog = true;
